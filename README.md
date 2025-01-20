@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## description on resume
+Project: Fundraising Platform Using Next.js
+Developed a dynamic and secure fundraising platform allowing users to create campaigns, process payments, and view real-time contributions using Next.js.
+
+Integrated payment gateway functionality with Razorpay, enabling seamless online transactions.
+
+Designed and implemented responsive user interfaces with customizable input fields for campaign details, ensuring an intuitive user experience.
+
+Utilized Next.js features such as Server-Side Rendering (SSR) and API Routes for optimal performance and scalability.
+
+Built functionality for campaign management, including donation tracking, supporter lists, and personalized thank-you messages via React Toastify.
+
+Leveraged authentication using NextAuth to secure user data and session handling.
+
+Improved user interaction by implementing notifications for successful payments and custom messages.
+
+Applied best practices for code modularity, maintainability, and performance optimization.
+
+Technologies Used: Next.js, React.js, JavaScript, Razorpay API, CSS, Toastify, NextAuth

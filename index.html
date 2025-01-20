@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first web page</title>
+    <link rel="icon" type="image/x-icon" href="image/Picture2.png">
+    <link rel="stylesheet" href="style.css">  <!--exterrnal linking of css-->
+    <!--internal linking of css-->
+    <style>
+        h6{
+            color: green;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!--comments-->
+    <!--paragraph-->
+    <p id="para">This is a paragraph</p>
+    <!--lorem then Tab key is used to generate Dummy text -->
+    <p>
+        <!--for multiple curser ctrl+ Alt+ down arrow-->
+        Lorem ipsum dolor sit amet.<!-- lorem is only used in vscode-->
+        <br>
+        <b>to bold the text</b>
+        <br><!--to generate new line. it self closing tag-->
+        <i>to italic the text</i>
+        <br /><!--it also generates new line. it self closing tag-->
+        <hr><!--horizontal line. self closing tag-->
+        <u>to underline</u> 
+        
+    </p>
+    <!--heading-->
+    <h1 id="headingRed">This is heading 1</h1>
+    <h2 class="text-green">This is heading 2</h2>
+    <h3 class="text-green">This is heading 3</h3>
+    <h4 class="text-green">This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+    <h1 id="headingBlue">This is heading 1</h1>
+
+    <!--for inserting image-->
+    <img src="image/Picture2.png" alt="bird" height="100" width="100"><!--if image is in device-->
+    <img src="https://www.india.gov.in/sites/upload_files/npi/files/logo_1.png" alt="Ashok Asthambh" height="100" width="100"><!--if image is online-->
+
+    <!--Button Tag-->
+    <button>click me</button>
+
+    <!-- link tag -->
+    <a href="https://www.google.com/">This is a link</a>
+     
+    <!-- unodered list -->
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+
+    <div style="color: blue; background-color: yellow;"> <!--inline styling -->
+        This is a text
+    </div>
+    <div>
+        Another text
+    </div>
+
+    <!-- odered list -->
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ol>
+
+    <form>
+        <input type="text" name="username" value="your name">
+        <input type="number" name="Number" >
+        <input type="text" name="username" placeholder="your name">
+        <input type="date" name="date">
+        <button>submit</button>
+    </form>
+
+    <!-- floating image-->
+    <p><img src="image/imagesp1.png" alt="Smiley face" style="float:right;width:42px;height:42px;">
+       A paragraph with a floating image. A paragraph with a floating image.
+    </p>
+    <script>console.log("hello world");</script>
+</body>
+</html>

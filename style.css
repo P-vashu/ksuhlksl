@@ -1,0 +1,51 @@
+h5 {
+    font-size: 12px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ /* comments */
+
+#headingRed{
+    font-size: 12px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#headingBlue{
+    font-size: 12px;
+    color: #0000ff; /*RGB-red  green blue , range= 00-ff*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.text-green{ /* for class . is used and # for id*/
+    color: green;
+    background-color: aqua;
+}
+
+#para{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    text-decoration: underline;
+    border: 10px solid gray;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 10px 20px 10px 30px;
+   /*padding-top right bottom left (same can be done for margin)*/
+    height: 100px;
+    width: 200px;
+}
+a {
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+a:hover {
+    color: blue;
+}
+a:active{
+    color:yellow;
+}
